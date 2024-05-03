@@ -13,7 +13,7 @@ wpm is a simple Speed Typing Test script implemented in Python using the curses 
 2. Ensure you have Python 3 installed on your system.
 3. Run the script in your terminal:
 
-```python speed_typing_test.py```
+     ```python speed_typing_test.py```
 
 4. Follow the on-screen instructions:
    - Press any key to begin the test.
