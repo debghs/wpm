@@ -1,4 +1,4 @@
-#wpm
+# wpm
 
 wpm is a simple Speed Typing Test script implemented in Python using the curses library. It allows users to test their typing speed by typing out a randomly selected line from a text file and calculates their words per minute (WPM) and accuracy.
 
