@@ -23,7 +23,10 @@ def display_text(stdscr, target, current, wpm=0, accuracy=0):
 
     for i, char in enumerate(current):
         correct_char = target[i]
-        color = curses.color_pair(1) if char == correct_char else curses.color_pair(2)
+        if char == correct_char:
+            color = curses.color_pair(1) 
+        else:
+            color = curses.color_pair(2)
         stdscr.addstr(1, i, char, color)
 
 
@@ -79,9 +82,7 @@ def wpm(stdscr):
         elif key >= 0 and key <= 255 and len(current_text) < len(target_text):
             current_text.append(chr(key))
 
-
-
-def main(stdscr):
+def main(stdscr): 
     if curses is None:
         # Display a message if curses is not available
         stdscr.addstr("Curses module is not available on this system.")
