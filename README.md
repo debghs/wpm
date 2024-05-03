@@ -22,4 +22,4 @@ wpm is a simple Speed Typing Test script implemented in Python using the curses 
 
 ## Note
 
-This version has a bug assosciated with the handling of the backspace key while typing. 
+This version has a bug assosciated with the handling of the backspace key while, typing. 
